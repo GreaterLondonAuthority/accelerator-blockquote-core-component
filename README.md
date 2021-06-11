@@ -5,13 +5,13 @@ This project contains the core component for the 'blockquote' component used by 
 # installation
 This project is downloaded using composer
 ```
-composer require gla/accelerator_blockquote_core_component
+composer require gla/accelerator-blockquote-core-component
 ```
 
 ```
    {
        "require": {
-           "gla/accelerator_blockquote_core_component": "^1.0"
+           "gla/accelerator-blockquote-core-component": "^1.0"
        }
    } 
 ```
