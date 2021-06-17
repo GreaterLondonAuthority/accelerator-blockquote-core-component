@@ -1,6 +1,6 @@
 {
     "name": "gla/accelerator-blockquote-core-component",
-    "type": "drupal-module",
+    "type": "drupal-custom-module",
     "license": "OGL-3.0",
     "description": "Core Blockquote component used by the GLA drupal accelerator and all drupal sites within the GLA estate"
 }
