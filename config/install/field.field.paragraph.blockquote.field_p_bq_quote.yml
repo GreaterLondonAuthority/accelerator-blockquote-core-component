@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_bq_quote
+    - paragraphs.paragraphs_type.blockquote
+id: paragraph.blockquote.field_p_bq_quote
+field_name: field_p_bq_quote
+entity_type: paragraph
+bundle: blockquote
+label: Quote
+description: 'Quotation marks will automatically be added by the system around the full quote. Please use single quotation marks to identify quotes within the full quote.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
