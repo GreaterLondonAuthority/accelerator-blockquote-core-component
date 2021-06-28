@@ -25,7 +25,7 @@ class NoQuoteValidator extends ConstraintValidator {
    * String contains quote marks.
    *
    * @param string $value
-   *   Thew value to test.
+   *   The value to test.
    *
    * @return bool
    *   TRUE if quotes are found.
