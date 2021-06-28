@@ -1,7 +1,6 @@
 name: 'Blockquote'
 type: module
 description: 'Provides a blockquote content type.'
-core: 8.x
 core_version_requirement: ^8.8 || ^9
 package: Custom
 dependencies:
