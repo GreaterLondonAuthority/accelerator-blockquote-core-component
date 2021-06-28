@@ -33,9 +33,9 @@ class NoQuoteValidator extends ConstraintValidator {
   private function hasQuotes(string $value) {
     $matches = [];
 
-    preg_match_all('"', $value,$matches);
+    preg_match_all('/"/', $value, $matches);
 
-    return !empty($matches);
+    return !empty($matches[0]);
   }
 
 }
