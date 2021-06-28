@@ -1,7 +1,7 @@
 name: 'Blockquote'
 type: module
 description: 'Provides a blockquote content type.'
-core: 8.x
+core: ^9
 package: Custom
 dependencies:
   - media_library
