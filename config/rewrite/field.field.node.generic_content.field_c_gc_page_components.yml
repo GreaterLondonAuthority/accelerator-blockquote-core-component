@@ -1,29 +1,6 @@
 settings:
-  handler: 'default:paragraph'
   handler_settings:
-    negate: 1
-    target_bundles:
-      accordion_item: accordion_item
-      button: button
     target_bundles_drag_drop:
-      accordion:
-        weight: -38
-        enabled: false
-      accordion_item:
-        enabled: true
-        weight: -37
       blockquote:
-        weight: 8
-        enabled: false
-      button:
-        enabled: true
-        weight: -36
-      buttons:
-        weight: -35
-        enabled: false
-      media_item:
-        weight: -28
-        enabled: false
-      rich_text:
-        weight: -44
+        weight: 0
         enabled: false
