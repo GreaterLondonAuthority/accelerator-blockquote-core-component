@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Blockquote paragraphs component.
+ */
+
+use Drupal\Core\Entity\EntityTypeInterface;
+
+/**
+ * Implements hook_entity_bundle_field_info_alter().
+ */
+function gla_blockquote_entity_bundle_field_info_alter(&$fields, EntityTypeInterface $entity_type, $bundle) {
+
+  // Add a constraint to prevent the adding of quote marks into the quote text
+  // as these will be added programmatically. @see DERP-280.
+  if ($entity_type->id() == 'paragraph' && $bundle === 'blockquote') {
+    if (isset($fields['field_p_bq_quote'])) {
+      // Use the ID as defined in the annotation of the constraint definition
+      $fields['field_p_bq_quote']->addConstraint('NoQuote', []);
+    }
+  }
+}

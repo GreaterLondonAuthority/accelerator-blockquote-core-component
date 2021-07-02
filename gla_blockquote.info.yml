@@ -1,0 +1,8 @@
+name: 'Blockquote'
+type: module
+description: 'Provides a blockquote content type.'
+core_version_requirement: ^8.8 || ^9
+package: Custom
+dependencies:
+  - media_library
+  - paragraphs
