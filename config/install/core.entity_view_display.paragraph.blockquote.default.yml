@@ -7,6 +7,9 @@ dependencies:
     - field.field.paragraph.blockquote.field_p_bq_supporting_image
     - field.field.paragraph.blockquote.field_p_bq_title
     - paragraphs.paragraphs_type.blockquote
+  enforced:
+    module:
+      - gla_blockquote
 id: paragraph.blockquote.default
 targetEntityType: paragraph
 bundle: blockquote

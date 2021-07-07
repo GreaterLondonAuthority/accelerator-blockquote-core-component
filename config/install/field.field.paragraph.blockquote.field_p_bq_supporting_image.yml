@@ -5,6 +5,9 @@ dependencies:
     - field.storage.paragraph.field_p_bq_supporting_image
     - media.type.image
     - paragraphs.paragraphs_type.blockquote
+  enforced:
+    module:
+      - gla_blockquote
 id: paragraph.blockquote.field_p_bq_supporting_image
 field_name: field_p_bq_supporting_image
 entity_type: paragraph

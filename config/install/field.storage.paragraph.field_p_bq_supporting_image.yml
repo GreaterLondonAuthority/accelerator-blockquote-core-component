@@ -1,9 +1,11 @@
 langcode: en
 status: true
 dependencies:
-  module:
-    - media
-    - paragraphs
+  enforced:
+    module:
+      - gla_blockquote
+      - media
+      - paragraphs
 id: paragraph.field_p_bq_supporting_image
 field_name: field_p_bq_supporting_image
 entity_type: paragraph
