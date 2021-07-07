@@ -4,8 +4,9 @@ dependencies:
   config:
     - field.storage.paragraph.field_p_bq_quote
     - paragraphs.paragraphs_type.blockquote
-  module:
-    - gla_blockquote
+  enforced:
+    module:
+      - gla_blockquote
 id: paragraph.blockquote.field_p_bq_quote
 field_name: field_p_bq_quote
 entity_type: paragraph

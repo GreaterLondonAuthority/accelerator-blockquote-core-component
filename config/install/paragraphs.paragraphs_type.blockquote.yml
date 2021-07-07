@@ -1,8 +1,9 @@
 langcode: en
 status: true
 dependencies:
-  module:
-    - gla_blockquote
+  enforced:
+    module:
+      - gla_blockquote
 id: blockquote
 label: Blockquote
 icon_uuid: null
