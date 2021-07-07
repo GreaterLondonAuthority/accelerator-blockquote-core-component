@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - gla_blockquote
     - media
     - paragraphs
 id: paragraph.field_p_bq_supporting_image

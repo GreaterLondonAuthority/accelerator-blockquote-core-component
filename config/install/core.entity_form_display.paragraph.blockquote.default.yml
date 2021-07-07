@@ -8,6 +8,7 @@ dependencies:
     - field.field.paragraph.blockquote.field_p_bq_title
     - paragraphs.paragraphs_type.blockquote
   module:
+    - gla_blockquote
     - media_library
 id: paragraph.blockquote.default
 targetEntityType: paragraph
