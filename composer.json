@@ -1,6 +1,15 @@
 {
-    "name": "gla/accelerator-blockquote-core-component",
-    "type": "gla-estate-module",
-    "license": "OGL-3.0",
-    "description": "Core Blockquote component used by the GLA drupal accelerator and all drupal sites within the GLA estate"
+  "name": "gla/accelerator-blockquote-core-component",
+  "type": "gla-estate-module",
+  "description": "Core Blockquote component used by the GLA drupal accelerator and all drupal sites within the GLA estate",
+  "license": "OGL-3.0",
+  "require-dev": {
+    "vijaycs85/drupal-quality-checker": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/lukewhitmore/drupal-quality-checker"
+    }
+  ]
 }
