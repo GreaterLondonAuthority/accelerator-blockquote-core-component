@@ -1,3 +1,5 @@
+[![Drupal Code Quality](https://github.com/GreaterLondonAuthority/accelerator-blockquote-core-component/actions/workflows/drupal-code-quality.yml/badge.svg)](https://github.com/GreaterLondonAuthority/accelerator-blockquote-core-component/actions/workflows/drupal-code-quality.yml)
+
 # Accelerator blockquote component
 
 This project contains the core component for the 'blockquote' component used by the GLA drupal accelerator and all drupal sites within the GLA estate
