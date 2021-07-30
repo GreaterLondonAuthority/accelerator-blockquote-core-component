@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7b8f6b39-5f6b-4996-808c-3cf52acbeb6b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: sadiq-khan.jpg
+  uri:
+    -
+      value: 'public://2021-07/sadiq-khan_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 17530
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1627579556
