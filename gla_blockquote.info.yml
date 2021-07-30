@@ -1,8 +1,7 @@
 name: 'GLA Blockquote'
 type: module
-description: 'Provides a blockquote content type.'
-core_version_requirement: ^8.8 || ^9
-package: Custom
+description: 'Provides a Blockquote component'
+core_version_requirement: '^8.9 || ^9'
 dependencies:
   - media_library
   - paragraphs
