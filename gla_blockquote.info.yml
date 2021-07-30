@@ -1,4 +1,4 @@
-name: 'Blockquote'
+name: 'GLA Blockquote'
 type: module
 description: 'Provides a blockquote content type.'
 core_version_requirement: ^8.8 || ^9
