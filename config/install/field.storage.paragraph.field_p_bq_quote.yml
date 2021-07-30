@@ -5,6 +5,8 @@ dependencies:
     module:
       - gla_blockquote
       - paragraphs
+  module:
+    - paragraphs
 id: paragraph.field_p_bq_quote
 field_name: field_p_bq_quote
 entity_type: paragraph

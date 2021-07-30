@@ -10,6 +10,8 @@ dependencies:
   enforced:
     module:
       - gla_blockquote
+  module:
+    - media
 id: paragraph.blockquote.default
 targetEntityType: paragraph
 bundle: blockquote
