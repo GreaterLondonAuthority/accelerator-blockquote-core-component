@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.blockquote.field_p_bq_quote
     - field.field.paragraph.blockquote.field_p_bq_supporting_image
     - field.field.paragraph.blockquote.field_p_bq_title
+    - image.style.blockquote_supporting_image
     - paragraphs.paragraphs_type.blockquote
   enforced:
     module:
@@ -33,12 +34,12 @@ content:
     type: basic_string
     region: content
   field_p_bq_supporting_image:
-    type: entity_reference_entity_view
+    type: media_thumbnail
     weight: 2
     label: hidden
     settings:
-      view_mode: default
-      link: false
+      image_style: blockquote_supporting_image
+      image_link: ''
     third_party_settings: {  }
     region: content
 hidden:

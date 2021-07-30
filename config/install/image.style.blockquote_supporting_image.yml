@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: blockquote_supporting_image
+label: 'Blockquote supporting image'
+effects:
+  5292ae41-73f8-4edc-a0a4-2b34a64fe989:
+    uuid: 5292ae41-73f8-4edc-a0a4-2b34a64fe989
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 256
+      height: 256
+      crop_type: focal_point
