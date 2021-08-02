@@ -2,10 +2,13 @@
 
 # Accelerator blockquote component
 
-This project contains the core component for the 'blockquote' component used by the GLA drupal accelerator and all drupal sites within the GLA estate
+This project contains the core component for the 'blockquote' component used by
+the GLA drupal accelerator and all drupal sites within the GLA estate
 
 # installation
+
 This project is downloaded using composer
+
 ```
 composer require gla/accelerator-blockquote-core-component
 ```
@@ -15,13 +18,11 @@ composer require gla/accelerator-blockquote-core-component
        "require": {
            "gla/accelerator-blockquote-core-component": "^1.0"
        }
-   } 
+   }
 ```
 
+Note: This project is currently accessible through a private pakagist,
 
-
-
-Note: This project is currently accessible through a private pakagist, 
 ```
     "repositories": [
         {
@@ -32,6 +33,7 @@ Note: This project is currently accessible through a private pakagist,
 ```
 
 and will need an auth key/token
+
 ```
    {
       "http-basic": {
