@@ -6,7 +6,7 @@ _meta:
   default_langcode: en
   depends:
     2c4a940d-ab37-46a8-b770-490dfd7e7cb2: media
-    99d317e6-ef6c-497c-b1bc-24b001e386f4: media
+    9fbf95c7-c720-42f3-b0c7-3009c6c07b23: media
 default:
   revision_uid:
     -
@@ -183,4 +183,4 @@ default:
       value: Teaser
   field_teaser_image:
     -
-      entity: 99d317e6-ef6c-497c-b1bc-24b001e386f4
+      entity: 9fbf95c7-c720-42f3-b0c7-3009c6c07b23

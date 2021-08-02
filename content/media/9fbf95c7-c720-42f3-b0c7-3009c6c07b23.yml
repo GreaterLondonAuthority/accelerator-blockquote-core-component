@@ -1,11 +1,11 @@
 _meta:
   version: '1.0'
   entity_type: media
-  uuid: 99d317e6-ef6c-497c-b1bc-24b001e386f4
+  uuid: 9fbf95c7-c720-42f3-b0c7-3009c6c07b23
   bundle: image
   default_langcode: en
   depends:
-    7c290a93-d5a7-45db-aa5e-467eac653986: file
+    8867fa4e-f210-4001-b84a-c5bb83b5d71a: file
 default:
   status:
     -
@@ -28,7 +28,7 @@ default:
       langcode: en
   field_media_image:
     -
-      entity: 7c290a93-d5a7-45db-aa5e-467eac653986
+      entity: 8867fa4e-f210-4001-b84a-c5bb83b5d71a
       alt: 'A man skateboarding at the Southbank Centre'
       title: ''
       width: 1200

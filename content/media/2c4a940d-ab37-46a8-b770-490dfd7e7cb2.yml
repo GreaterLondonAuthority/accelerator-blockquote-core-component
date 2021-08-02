@@ -5,7 +5,7 @@ _meta:
   bundle: image
   default_langcode: en
   depends:
-    7b8f6b39-5f6b-4996-808c-3cf52acbeb6b: file
+    9a8a1190-39ae-470c-a1ce-79a611c38e4f: file
 default:
   status:
     -
@@ -28,7 +28,7 @@ default:
       langcode: en
   field_media_image:
     -
-      entity: 7b8f6b39-5f6b-4996-808c-3cf52acbeb6b
+      entity: 9a8a1190-39ae-470c-a1ce-79a611c38e4f
       alt: 'Sadiq Khan'
       title: ''
       width: 256
