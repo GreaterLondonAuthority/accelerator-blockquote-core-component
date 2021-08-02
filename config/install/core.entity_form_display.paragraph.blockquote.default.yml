@@ -11,6 +11,8 @@ dependencies:
     module:
       - gla_blockquote
       - media_library
+  module:
+    - media_library
 id: paragraph.blockquote.default
 targetEntityType: paragraph
 bundle: blockquote

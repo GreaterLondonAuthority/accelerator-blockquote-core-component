@@ -12,7 +12,7 @@ field_name: field_p_bq_quote
 entity_type: paragraph
 bundle: blockquote
 label: Quote
-description: 'The text of the quote, using single quote marks if required.'
+description: 'The text of the quote. There''s no need to wrap the quote in quotation marks. If you need to use a quote within a quote, please use single '' marks.'
 required: true
 translatable: false
 default_value: {  }

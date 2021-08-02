@@ -12,7 +12,7 @@ id: paragraph.blockquote.field_p_bq_supporting_image
 field_name: field_p_bq_supporting_image
 entity_type: paragraph
 bundle: blockquote
-label: 'Supporting Image'
+label: 'Supporting image'
 description: 'Enter a supporting image for your quote.'
 required: false
 translatable: false

@@ -1,8 +1,12 @@
-name: 'Blockquote'
+name: 'GLA Blockquote'
 type: module
-description: 'Provides a blockquote content type.'
-core_version_requirement: ^8.8 || ^9
-package: Custom
+description: 'Provides a Blockquote component'
+core_version_requirement: '^8.9 || ^9'
 dependencies:
-  - media_library
-  - paragraphs
+  - 'drupal:field'
+  - 'drupal:image'
+  - 'drupal:media'
+  - 'drupal:media_library'
+  - 'focal_point:focal_point'
+  - 'gla_blockquote:gla_blockquote'
+  - 'paragraphs:paragraphs'

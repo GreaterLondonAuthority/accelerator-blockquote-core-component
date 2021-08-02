@@ -12,7 +12,7 @@ field_name: field_p_bq_citation
 entity_type: paragraph
 bundle: blockquote
 label: Citation
-description: 'Enter a citation for the quote.'
+description: 'Enter a citation for the quote. If you include a comma in your citation (e.g. to present a name and a job title or role like <em>Joe Bloggs, Politics editor, Publication Name</em>) then the text preceding the first comma will be made bold and the remaining text will not be bold. If you don''t use a comma then the whole citation will be bold.'
 required: false
 translatable: false
 default_value: {  }

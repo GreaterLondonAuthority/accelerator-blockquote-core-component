@@ -20,6 +20,6 @@ class NoQuote extends Constraint {
    *
    * @var string
    */
-  public $hasQuotes = 'Quotation marks will automatically be added by the system around the full quote. Please use single quotation marks to identify quotes within the full quote.';
+  public $hasQuotes = 'There is no need to wrap the quote in quotation mark characters. Please use single quotation marks to identify quotes within the full quote.';
 
 }
