@@ -16,7 +16,7 @@ function gla_blockquote_entity_bundle_field_info_alter(&$fields, EntityTypeInter
   // as these will be added programmatically. @see DERP-280.
   if ($entity_type->id() == 'paragraph' && $bundle === 'blockquote') {
     if (isset($fields['field_p_bq_quote'])) {
-      // Use the ID as defined in the annotation of the constraint definition
+      // Use the ID as defined in the annotation of the constraint definition.
       $fields['field_p_bq_quote']->addConstraint('NoQuote', []);
     }
   }
